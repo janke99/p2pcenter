@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtorrent", "libtorrent.vcproj", "{4C81B346-9CD1-4C89-9501-9850364FFC5B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtorrenttest", "..\libtorrenttest\libtorrenttest.vcproj", "{D6FC8932-F2A0-435A-BE50-C192A892F532}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C81B346-9CD1-4C89-9501-9850364FFC5B} = {4C81B346-9CD1-4C89-9501-9850364FFC5B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4C81B346-9CD1-4C89-9501-9850364FFC5B}.Debug.ActiveCfg = Debug|Win32
+		{4C81B346-9CD1-4C89-9501-9850364FFC5B}.Debug.Build.0 = Debug|Win32
+		{4C81B346-9CD1-4C89-9501-9850364FFC5B}.Release.ActiveCfg = Release|Win32
+		{4C81B346-9CD1-4C89-9501-9850364FFC5B}.Release.Build.0 = Release|Win32
+		{D6FC8932-F2A0-435A-BE50-C192A892F532}.Debug.ActiveCfg = Debug|Win32
+		{D6FC8932-F2A0-435A-BE50-C192A892F532}.Debug.Build.0 = Debug|Win32
+		{D6FC8932-F2A0-435A-BE50-C192A892F532}.Release.ActiveCfg = Release|Win32
+		{D6FC8932-F2A0-435A-BE50-C192A892F532}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
